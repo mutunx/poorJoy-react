@@ -24,7 +24,7 @@ const Home = () => {
                     <Routes>
                         <Route path="/cardDraw" element={<CardDraw />} />
                         <Route path="/statistic" element={<Statistic />} />
-                        <Route path="/" element={<CardDraw />} />
+                        <Route path="/" element={<Statistic />} />
                     </Routes>
                 </div>
             </Content>
