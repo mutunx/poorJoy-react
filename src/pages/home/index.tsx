@@ -15,7 +15,7 @@ const Home = () => {
             <Header>
                 <div className="logo" />
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
-                    <Menu.Item key={1}><Link to="/">Home</Link></Menu.Item>
+                    <Menu.Item key={1}><Link to="/cardDraw">Home</Link></Menu.Item>
                     <Menu.Item key={2}><Link to="/statistic">Statistic</Link></Menu.Item>
                 </Menu>
             </Header>
@@ -28,7 +28,7 @@ const Home = () => {
                     </Routes>
                 </div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+            {/*<Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>*/}
         </Layout>
         </Router>
     )
